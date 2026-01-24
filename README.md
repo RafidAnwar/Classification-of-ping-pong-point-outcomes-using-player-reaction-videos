@@ -19,15 +19,13 @@
 ## Pipeline Structure
 
 ### 1. video annotation.py
-**YOLOv11 Pose Annotation**: Detects & visualizes **17 body keypoints** on table tennis reaction videos.
+Detects & visualizes **17 body keypoints** on table tennis reaction videos using YOLO11 pose estimation model.
 
 ### 2. landmark detection check.py
-**Quality Filtering**: Retains videos with **≥80% keypoint detection** across all 17 landmarks.
+Retains videos with **≥80% keypoint detection** across all 17 landmarks for all of the 600+ annotated videos.
 
 ### 3. fea_extract.py
-**Feature Extraction**: 
-- **Pose**: 68-dim features including the keypoints relative position and distances, angles, velocities and acceleration.
-- **Face**: **512-dim Emo-AffectNet** emotion vectors
+extraction of 68-dim features from the 17 keypoints of pose landmarks (keypoints relative position, distances, angles, velocities and acceleration) and 512 dimesnion feature vector from the emo-affectnet model for the facial features
 
 ### 4. lstm.py
 classification using LSTM based model architecture
