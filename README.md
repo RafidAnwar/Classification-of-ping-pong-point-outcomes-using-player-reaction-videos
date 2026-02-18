@@ -36,4 +36,10 @@ classification using xLSTM based model architecture
 ### 6. transformer.py
 Transformer model with multihead self-attention for classification.
 
+### 7.creating_database.py
+Creating sql database of different model and feature based data for analysis.
+
+### 8.power_BI_csv.py
+extracting important CSV files from the database to be used in power BI for detailed reporting.
+
 
