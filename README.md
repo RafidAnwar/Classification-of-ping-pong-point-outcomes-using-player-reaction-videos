@@ -42,4 +42,7 @@ Creating sql database of different model and feature based data for analysis.
 ### 8.power_BI_csv.py
 extracting important CSV files from the database to be used in power BI for detailed reporting.
 
+![Animation](https://github.com/user-attachments/assets/6bc19f22-f6cc-4ab0-a18d-587a58f75e90)
+
+
 
